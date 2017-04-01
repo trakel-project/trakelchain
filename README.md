@@ -29,7 +29,8 @@ JSON-RPC调用方法说明：
 |方法|参数|返回值|
 |---|----|-----|
 |contract_invokeContract|`{from: <string> 合约调用者地址。to: <string> 合约地址。payload:<string> 方法名和方法参数经过编码后的input字节码。signature: <string> 交易签名timestamp: <number> 交易时间戳(单位ns)。}`|transactionHash:<string>  交易的哈希值,32字节的十六进制字符串|
-说明：to合约地址需要在部署完合约以后，调用tx_getTransactionReceipt方法来获取。
+
+**说明**：to合约地址需要在部署完合约以后，调用tx_getTransactionReceipt方法来获取。
 
 Example：  
 // Request   
@@ -54,7 +55,7 @@ Example：
 |方法|参数|返回值|
 |---|----|-----|
 |tx_getTransactionReceipt|transactionHash: <string> 交易hash。|<receipt>{postState: <string> 交易状态。contractAddress:<string> 合约地址。ret: <string>执行的结果。}
-|
+
 
 Example：  
 // Request  
