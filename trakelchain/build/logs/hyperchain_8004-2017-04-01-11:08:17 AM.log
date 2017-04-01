@@ -1,0 +1,25 @@
+[32m[NOTIC] 11:08:17.563 pbftpersist.go:269[consensus/pbft] restoreState -> [0m=========restore view 0=======
+[32m[NOTIC] 11:08:17.563 pbftprotocal.go:320[consensus/pbft] newPbft -> [0mReplica 4 set vcResendLimit 10
+[32m[NOTIC] 11:08:17.563 pbftprotocal.go:358[consensus/pbft] newPbft -> [0m--------PBFT finish start, nodeID: 4--------
+[32m[NOTIC] 11:08:20.604 block_pool.go:96[block-pool] NewBlockPool -> [0mBlock pool Initialize demandNumber :5, demandseqNo: 5
+[32m[NOTIC] 11:08:20.830 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 11:08:20.835 node.go:92[p2p] Chat -> [0mNow Say Hello from: 1 2c7cbc9211693654d3cd3260bcef2b18c6edb98d94076251e0272aa37aaaa734e79124274700dc64c989b97e270a8e7c
+[33m[WARNI] 11:08:20.845 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 11:08:20.851 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[32m[NOTIC] 11:08:21.230 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 11:08:21.235 node.go:92[p2p] Chat -> [0mNow Say Hello from: 2 5b501836b58367ca5c6ea92e0cce5747e43bee42e94f714bf285bed84fbd02844bb61d713e2af62c2246f3e85f6a6468
+[33m[WARNI] 11:08:21.245 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 11:08:21.250 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 11:08:21.309 node.go:92[p2p] Chat -> [0mNow Say Hello from: 1 2c7cbc9211693654d3cd3260bcef2b18c6edb98d94076251e0272aa37aaaa734e79124274700dc64c989b97e270a8e7c
+[33m[WARNI] 11:08:21.346 node.go:92[p2p] Chat -> [0mNow Say Hello from: 2 5b501836b58367ca5c6ea92e0cce5747e43bee42e94f714bf285bed84fbd02844bb61d713e2af62c2246f3e85f6a6468
+[32m[NOTIC] 11:08:21.635 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 11:08:21.640 node.go:92[p2p] Chat -> [0mNow Say Hello from: 3 62ca477cf8409c7557ef3fa09fa87cdd4d1de8a35876f5734de5678ca5053134d3bb930a384d0c6f96dbb241d2da65dd
+[33m[WARNI] 11:08:21.651 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 11:08:21.655 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 11:08:21.764 node.go:92[p2p] Chat -> [0mNow Say Hello from: 3 62ca477cf8409c7557ef3fa09fa87cdd4d1de8a35876f5734de5678ca5053134d3bb930a384d0c6f96dbb241d2da65dd
+[32m[NOTIC] 11:08:22.219 gRPCPeerManager.go:76[p2p] Start -> [0m┌────────────────────────────┐
+[32m[NOTIC] 11:08:22.219 gRPCPeerManager.go:77[p2p] Start -> [0m│  All NODES WERE CONNECTED  │
+[32m[NOTIC] 11:08:22.219 gRPCPeerManager.go:78[p2p] Start -> [0m└────────────────────────────┘
+[32m[NOTIC] 11:08:22.219 pbftprotocal.go:518[consensus/pbft] processPbftEvent -> [0m======== Replica 4 finished negotiating view: 0
+[32m[NOTIC] 11:08:22.220 recovery.go:20[consensus/pbft] initRecovery -> [0mReplica 4 now initRecovery
+[32m[NOTIC] 11:08:22.221 pbftprotocal.go:539[consensus/pbft] processPbftEvent -> [0m======== Replica 4 finished recovery, height: 4

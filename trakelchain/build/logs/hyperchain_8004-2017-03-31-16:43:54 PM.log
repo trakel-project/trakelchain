@@ -1,0 +1,104 @@
+[32m[NOTIC] 16:43:54.042 pbftpersist.go:269[consensus/pbft] restoreState -> [0m=========restore view 0=======
+[33m[WARNI] 16:43:54.042 pbftpersist.go:287[consensus/pbft] restoreLastSeqNo -> [0mReplica 4 could not restore lastExec: Height of chain is 0
+[32m[NOTIC] 16:43:54.042 pbftprotocal.go:320[consensus/pbft] newPbft -> [0mReplica 4 set vcResendLimit 10
+[32m[NOTIC] 16:43:54.042 pbftprotocal.go:358[consensus/pbft] newPbft -> [0m--------PBFT finish start, nodeID: 4--------
+[32m[NOTIC] 16:43:56.550 block_pool.go:96[block-pool] NewBlockPool -> [0mBlock pool Initialize demandNumber :1, demandseqNo: 1
+[31m[ERROR] 16:43:56.765 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:43:56.765 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8001  can not connect!
+[31m[ERROR] 16:43:56.765 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8001  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[33m[WARNI] 16:43:56.856 node.go:92[p2p] Chat -> [0mNow Say Hello from: 3 19f4441f9f8147a59e9d29ba1eb2197f8d76171a02108b0c71f86d71e81e6c1e068aaa1897688dc5f130b9d4f2948d4e
+[32m[NOTIC] 16:43:56.871 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 16:43:56.876 node.go:92[p2p] Chat -> [0mNow Say Hello from: 3 19f4441f9f8147a59e9d29ba1eb2197f8d76171a02108b0c71f86d71e81e6c1e068aaa1897688dc5f130b9d4f2948d4e
+[31m[ERROR] 16:43:56.965 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:43:56.965 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8002  can not connect!
+[31m[ERROR] 16:43:56.965 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8002  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[33m[WARNI] 16:43:57.171 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 16:43:57.176 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[31m[ERROR] 16:43:57.965 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:43:57.965 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8001  can not connect!
+[31m[ERROR] 16:43:57.966 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8001  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 16:43:58.165 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:43:58.165 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8002  can not connect!
+[31m[ERROR] 16:43:58.165 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8002  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 16:43:58.965 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:43:58.965 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8001  can not connect!
+[31m[ERROR] 16:43:58.965 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8001  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 16:43:59.165 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:43:59.165 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8002  can not connect!
+[31m[ERROR] 16:43:59.165 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8002  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 16:43:59.965 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:43:59.965 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8001  can not connect!
+[31m[ERROR] 16:43:59.965 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8001  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 16:44:00.165 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:44:00.165 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8002  can not connect!
+[31m[ERROR] 16:44:00.165 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8002  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 16:44:00.965 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:44:00.965 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8001  can not connect!
+[31m[ERROR] 16:44:00.965 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8001  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 16:44:01.165 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:44:01.165 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8002  can not connect!
+[31m[ERROR] 16:44:01.165 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8002  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 16:44:01.965 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:44:01.965 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8001  can not connect!
+[31m[ERROR] 16:44:01.965 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8001  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 16:44:02.165 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:44:02.165 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8002  can not connect!
+[31m[ERROR] 16:44:02.165 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8002  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 16:44:02.965 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:44:02.965 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8001  can not connect!
+[31m[ERROR] 16:44:02.965 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8001  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 16:44:03.165 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:44:03.165 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8002  can not connect!
+[31m[ERROR] 16:44:03.165 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8002  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 16:44:03.965 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:44:03.965 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8001  can not connect!
+[31m[ERROR] 16:44:03.965 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8001  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 16:44:04.166 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:44:04.166 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8002  can not connect!
+[31m[ERROR] 16:44:04.166 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8002  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[32m[NOTIC] 16:44:04.977 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 16:44:04.983 node.go:92[p2p] Chat -> [0mNow Say Hello from: 1 5e8c0c5374495859974bce2b1dec44b211397a14eea72ca6b7dac7d482a158c554fa47b52364f7e23895eb4628038a0c
+[33m[WARNI] 16:44:04.994 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 16:44:04.999 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[31m[ERROR] 16:44:05.366 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:44:05.366 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8002  can not connect!
+[31m[ERROR] 16:44:05.366 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8002  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[33m[WARNI] 16:44:05.798 node.go:92[p2p] Chat -> [0mNow Say Hello from: 1 5e8c0c5374495859974bce2b1dec44b211397a14eea72ca6b7dac7d482a158c554fa47b52364f7e23895eb4628038a0c
+[32m[NOTIC] 16:44:05.965 gRPCPeerManager.go:76[p2p] Start -> [0m┌────────────────────────────┐
+[32m[NOTIC] 16:44:05.965 gRPCPeerManager.go:77[p2p] Start -> [0m│  All NODES WERE CONNECTED  │
+[32m[NOTIC] 16:44:05.965 gRPCPeerManager.go:78[p2p] Start -> [0m└────────────────────────────┘
+[33m[WARNI] 16:44:08.457 node.go:92[p2p] Chat -> [0mNow Say Hello from: 2 52fb26123f74c13d4cdf9a6ea3415476d6ff4762305042397d44af8669de1b5ce2dc291a936bda4ee730b454ec9675cf
+[32m[NOTIC] 16:44:08.473 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 16:44:08.477 node.go:92[p2p] Chat -> [0mNow Say Hello from: 2 52fb26123f74c13d4cdf9a6ea3415476d6ff4762305042397d44af8669de1b5ce2dc291a936bda4ee730b454ec9675cf
+[32m[NOTIC] 16:44:11.967 pbftprotocal.go:518[consensus/pbft] processPbftEvent -> [0m======== Replica 4 finished negotiating view: 0
+[32m[NOTIC] 16:44:11.967 recovery.go:20[consensus/pbft] initRecovery -> [0mReplica 4 now initRecovery
+[32m[NOTIC] 16:44:11.968 pbftprotocal.go:539[consensus/pbft] processPbftEvent -> [0m======== Replica 4 finished recovery, height: 0
+[32m[NOTIC] 16:50:09.472 block_pool.go:136[block-pool] Validate -> [0mCurrent demandSeqNo is,  2
+[32m[NOTIC] 16:50:09.473 pbftprotocal.go:1501[consensus/pbft] executeOne -> [0m--------Replica 4 Call execute, view=0/seqNo=1--------
+[32m[NOTIC] 16:50:09.473 block_pool.go:514[block-pool] WriteBlock -> [0mBlock number 1
+[32m[NOTIC] 16:50:09.473 block_pool.go:515[block-pool] WriteBlock -> [0mBlock hash c28138877bba7255d67bb609d0cda4bd32d8ef51679ced1a4937d05154ee5000
+[32m[NOTIC] 16:51:51.285 block_pool.go:136[block-pool] Validate -> [0mCurrent demandSeqNo is,  3
+[32m[NOTIC] 16:51:51.286 pbftprotocal.go:1501[consensus/pbft] executeOne -> [0m--------Replica 4 Call execute, view=0/seqNo=2--------
+[32m[NOTIC] 16:51:51.286 block_pool.go:514[block-pool] WriteBlock -> [0mBlock number 2
+[32m[NOTIC] 16:51:51.287 block_pool.go:515[block-pool] WriteBlock -> [0mBlock hash dc177f3d4b73204f892681b9aa8f1c4dcaadb4f65c4b20fc2db901a69271589a
+[32m[NOTIC] 16:52:07.845 block_pool.go:136[block-pool] Validate -> [0mCurrent demandSeqNo is,  4
+[32m[NOTIC] 16:52:07.845 pbftprotocal.go:1501[consensus/pbft] executeOne -> [0m--------Replica 4 Call execute, view=0/seqNo=3--------
+[32m[NOTIC] 16:52:07.845 block_pool.go:514[block-pool] WriteBlock -> [0mBlock number 3
+[32m[NOTIC] 16:52:07.845 block_pool.go:515[block-pool] WriteBlock -> [0mBlock hash 10082fc4eeeb08ceae8b42bccac196fa18e73158a62de907bd90b3fdeac6e505

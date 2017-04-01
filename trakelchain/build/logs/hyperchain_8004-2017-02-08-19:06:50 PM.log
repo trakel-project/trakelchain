@@ -1,0 +1,37 @@
+[33m[WARNI] 19:06:50.748 database_utils.go:597[] IsGenesisFinish -> [0mmissing genesis block
+[32m[NOTIC] 19:06:50.749 pbftpersist.go:271[consensus/pbft] restoreState -> [0mReplica 4 could not restore view: leveldb: not found
+[33m[WARNI] 19:06:50.749 pbftpersist.go:287[consensus/pbft] restoreLastSeqNo -> [0mReplica 4 could not restore lastExec: Height of chain is 0
+[32m[NOTIC] 19:06:50.750 pbftprotocal.go:320[consensus/pbft] newPbft -> [0mReplica 4 set vcResendLimit 10
+[32m[NOTIC] 19:06:50.750 pbftprotocal.go:358[consensus/pbft] newPbft -> [0m--------PBFT finish start, nodeID: 4--------
+[32m[NOTIC] 19:06:53.453 block_pool.go:96[block-pool] NewBlockPool -> [0mBlock pool Initialize demandNumber :1, demandseqNo: 1
+[31m[ERROR] 19:06:53.669 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 19:06:53.669 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8001  can not connect!
+[31m[ERROR] 19:06:53.669 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8001  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 19:06:53.869 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 19:06:53.869 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8002  can not connect!
+[31m[ERROR] 19:06:53.869 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8002  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[32m[NOTIC] 19:06:54.080 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 19:06:54.084 node.go:92[p2p] Chat -> [0mNow Say Hello from: 3 f01a6c343986cb738085d2be6cf28453f56e6c442f3eba5598e7c8b1b7b0f13892af49a28ca3057d83f3f8d88672c44a
+[33m[WARNI] 19:06:54.097 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 19:06:54.102 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 19:06:54.314 node.go:92[p2p] Chat -> [0mNow Say Hello from: 3 f01a6c343986cb738085d2be6cf28453f56e6c442f3eba5598e7c8b1b7b0f13892af49a28ca3057d83f3f8d88672c44a
+[32m[NOTIC] 19:06:54.884 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 19:06:54.889 node.go:92[p2p] Chat -> [0mNow Say Hello from: 1 69f8fb008495c7f52b8154d5d1a9e0370f43f79c77d74758f091420452446b1be6257cfc7fda6b0b231371c3fceb2448
+[33m[WARNI] 19:06:54.900 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 19:06:54.905 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 19:06:55.240 node.go:92[p2p] Chat -> [0mNow Say Hello from: 1 69f8fb008495c7f52b8154d5d1a9e0370f43f79c77d74758f091420452446b1be6257cfc7fda6b0b231371c3fceb2448
+[32m[NOTIC] 19:06:55.280 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 19:06:55.285 node.go:92[p2p] Chat -> [0mNow Say Hello from: 2 b3a1ae574e740f6506e5a9122c75116fee858b80bcd4b4728431a00038b73a24ce16de5b206b09ba3c210c2707dd4306
+[33m[WARNI] 19:06:55.292 node.go:92[p2p] Chat -> [0mNow Say Hello from: 2 b3a1ae574e740f6506e5a9122c75116fee858b80bcd4b4728431a00038b73a24ce16de5b206b09ba3c210c2707dd4306
+[33m[WARNI] 19:06:55.295 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 19:06:55.301 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 19:06:55.307 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 19:06:55.312 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[32m[NOTIC] 19:06:56.068 gRPCPeerManager.go:76[p2p] Start -> [0m┌────────────────────────────┐
+[32m[NOTIC] 19:06:56.068 gRPCPeerManager.go:77[p2p] Start -> [0m│  All NODES WERE CONNECTED  │
+[32m[NOTIC] 19:06:56.068 gRPCPeerManager.go:78[p2p] Start -> [0m└────────────────────────────┘
+[32m[NOTIC] 19:07:02.069 pbftprotocal.go:518[consensus/pbft] processPbftEvent -> [0m======== Replica 4 finished negotiating view: 0
+[32m[NOTIC] 19:07:02.069 recovery.go:20[consensus/pbft] initRecovery -> [0mReplica 4 now initRecovery
+[32m[NOTIC] 19:07:02.070 pbftprotocal.go:539[consensus/pbft] processPbftEvent -> [0m======== Replica 4 finished recovery, height: 0

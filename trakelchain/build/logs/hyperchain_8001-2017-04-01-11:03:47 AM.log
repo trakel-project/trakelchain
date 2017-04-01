@@ -1,0 +1,37 @@
+[32m[NOTIC] 11:03:47.076 pbftpersist.go:269[consensus/pbft] restoreState -> [0m=========restore view 0=======
+[32m[NOTIC] 11:03:47.076 pbftprotocal.go:320[consensus/pbft] newPbft -> [0mReplica 1 set vcResendLimit 10
+[32m[NOTIC] 11:03:47.077 pbftprotocal.go:358[consensus/pbft] newPbft -> [0m--------PBFT finish start, nodeID: 1--------
+[32m[NOTIC] 11:03:50.077 block_pool.go:96[block-pool] NewBlockPool -> [0mBlock pool Initialize demandNumber :5, demandseqNo: 5
+[33m[WARNI] 11:03:50.159 node.go:92[p2p] Chat -> [0mNow Say Hello from: 2 7064cde846f858ef0e2479a5a0d52b707a6a6b67d679a9f5dede0ebe08ca468717fb7b866f5a61b11ffcc239bd7ff1dc
+[32m[NOTIC] 11:03:50.176 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 11:03:50.183 node.go:92[p2p] Chat -> [0mNow Say Hello from: 2 7064cde846f858ef0e2479a5a0d52b707a6a6b67d679a9f5dede0ebe08ca468717fb7b866f5a61b11ffcc239bd7ff1dc
+[33m[WARNI] 11:03:50.441 node.go:92[p2p] Chat -> [0mNow Say Hello from: 3 89ab4dd0b70041e2034e6d83e60358e5b119e05f8fd121d31e0a452d3923eb04e4752c509cb5256e49c885e0b4878120
+[32m[NOTIC] 11:03:50.456 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 11:03:50.463 node.go:92[p2p] Chat -> [0mNow Say Hello from: 3 89ab4dd0b70041e2034e6d83e60358e5b119e05f8fd121d31e0a452d3923eb04e4752c509cb5256e49c885e0b4878120
+[33m[WARNI] 11:03:50.509 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 11:03:50.514 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 11:03:50.807 node.go:92[p2p] Chat -> [0mNow Say Hello from: 4 8c5b93e46211a83e17ceae528daa7d10231a63760ad4a0ffef31b248e80e04daca6c83d707093b9b5d5a51c47021d92a
+[32m[NOTIC] 11:03:50.822 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 11:03:50.828 node.go:92[p2p] Chat -> [0mNow Say Hello from: 4 8c5b93e46211a83e17ceae528daa7d10231a63760ad4a0ffef31b248e80e04daca6c83d707093b9b5d5a51c47021d92a
+[33m[WARNI] 11:03:50.908 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 11:03:50.913 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 11:03:51.308 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 11:03:51.313 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[32m[NOTIC] 11:03:51.701 gRPCPeerManager.go:76[p2p] Start -> [0m┌────────────────────────────┐
+[32m[NOTIC] 11:03:51.702 gRPCPeerManager.go:77[p2p] Start -> [0m│  All NODES WERE CONNECTED  │
+[32m[NOTIC] 11:03:51.702 gRPCPeerManager.go:78[p2p] Start -> [0m└────────────────────────────┘
+[32m[NOTIC] 11:03:57.703 pbftprotocal.go:518[consensus/pbft] processPbftEvent -> [0m======== Replica 1 finished negotiating view: 0
+[32m[NOTIC] 11:03:57.703 recovery.go:20[consensus/pbft] initRecovery -> [0mReplica 1 now initRecovery
+[32m[NOTIC] 11:03:57.704 pbftprotocal.go:539[consensus/pbft] processPbftEvent -> [0m======== Replica 1 finished recovery, height: 4
+[31m[ERROR] 11:04:13.704 peer.go:170[p2p] Chat -> [0merr: rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 11:04:13.704 peer.go:171[p2p] Chat -> [0mretry to connect again
+[33m[WARNI] 11:04:13.704 peer.go:172[p2p] Chat -> [0mwatting for updating
+[31m[ERROR] 11:04:17.705 peer.go:170[p2p] Chat -> [0merr: rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 11:04:17.705 peer.go:171[p2p] Chat -> [0mretry to connect again
+[33m[WARNI] 11:04:17.705 peer.go:172[p2p] Chat -> [0mwatting for updating
+[31m[ERROR] 11:04:17.705 peer.go:170[p2p] Chat -> [0merr: rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 11:04:17.705 peer.go:171[p2p] Chat -> [0mretry to connect again
+[33m[WARNI] 11:04:17.705 peer.go:172[p2p] Chat -> [0mwatting for updating
+[31m[ERROR] 11:04:17.705 peer.go:170[p2p] Chat -> [0merr: rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 11:04:17.705 peer.go:171[p2p] Chat -> [0mretry to connect again
+[33m[WARNI] 11:04:17.705 peer.go:172[p2p] Chat -> [0mwatting for updating

@@ -1,0 +1,2 @@
+[31m[ERROR] 14:22:31.086 transactionAPI.go:270[hpc] getDiscardTransactionByHash -> [0mGetDiscardTransaction error: leveldb: not found
+[31m[ERROR] 14:23:18.493 transactionAPI.go:270[hpc] getDiscardTransactionByHash -> [0mGetDiscardTransaction error: leveldb: not found

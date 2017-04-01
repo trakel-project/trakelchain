@@ -1,0 +1,23 @@
+[32m[NOTIC] 16:05:32.872 pbftpersist.go:269[consensus/pbft] restoreState -> [0m=========restore view 0=======
+[33m[WARNI] 16:05:32.872 pbftpersist.go:287[consensus/pbft] restoreLastSeqNo -> [0mReplica 2 could not restore lastExec: Height of chain is 0
+[32m[NOTIC] 16:05:32.872 pbftprotocal.go:320[consensus/pbft] newPbft -> [0mReplica 2 set vcResendLimit 10
+[32m[NOTIC] 16:05:32.872 pbftprotocal.go:358[consensus/pbft] newPbft -> [0m--------PBFT finish start, nodeID: 2--------
+[32m[NOTIC] 16:05:35.379 block_pool.go:96[block-pool] NewBlockPool -> [0mBlock pool Initialize demandNumber :1, demandseqNo: 1
+[32m[NOTIC] 16:05:35.606 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 16:05:35.610 node.go:92[p2p] Chat -> [0mNow Say Hello from: 1 f52f8bbddb4d4ad500bcbb18ace931b99af5f2b32a370bf40caba170e3d0a3c89f5681faccf1b387ac9e985a465bddb5
+[33m[WARNI] 16:05:35.620 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 16:05:35.625 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[32m[NOTIC] 16:05:36.208 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 16:05:36.214 node.go:92[p2p] Chat -> [0mNow Say Hello from: 3 6bf2a3c5baa7a28e22db94a0c9be0d2166d88d00e61ad2a444ea8df47c5d2f77d688639694a9f1f62dd44e32c635f54f
+[33m[WARNI] 16:05:36.225 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 16:05:36.230 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[32m[NOTIC] 16:05:36.605 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 16:05:36.610 node.go:92[p2p] Chat -> [0mNow Say Hello from: 4 469fbd1f0044d810736629c79b1c762d1fee04a0d30a2a096827b2d396d7a67dd6575cade6e2e646d2382a38e014dcb3
+[33m[WARNI] 16:05:36.621 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 16:05:36.626 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[32m[NOTIC] 16:05:36.993 gRPCPeerManager.go:76[p2p] Start -> [0m┌────────────────────────────┐
+[32m[NOTIC] 16:05:36.993 gRPCPeerManager.go:77[p2p] Start -> [0m│  All NODES WERE CONNECTED  │
+[32m[NOTIC] 16:05:36.994 gRPCPeerManager.go:78[p2p] Start -> [0m└────────────────────────────┘
+[32m[NOTIC] 16:05:36.994 pbftprotocal.go:518[consensus/pbft] processPbftEvent -> [0m======== Replica 2 finished negotiating view: 0
+[32m[NOTIC] 16:05:36.994 recovery.go:20[consensus/pbft] initRecovery -> [0mReplica 2 now initRecovery
+[32m[NOTIC] 16:05:36.995 pbftprotocal.go:539[consensus/pbft] processPbftEvent -> [0m======== Replica 2 finished recovery, height: 0

@@ -1,0 +1,26 @@
+[32m[NOTIC] 17:11:49.717 pbftpersist.go:269[consensus/pbft] restoreState -> [0m=========restore view 0=======
+[32m[NOTIC] 17:11:49.717 pbftprotocal.go:320[consensus/pbft] newPbft -> [0mReplica 1 set vcResendLimit 10
+[32m[NOTIC] 17:11:49.717 pbftprotocal.go:358[consensus/pbft] newPbft -> [0m--------PBFT finish start, nodeID: 1--------
+[32m[NOTIC] 17:11:52.225 block_pool.go:96[block-pool] NewBlockPool -> [0mBlock pool Initialize demandNumber :4, demandseqNo: 4
+[32m[NOTIC] 17:11:52.651 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 17:11:52.656 node.go:92[p2p] Chat -> [0mNow Say Hello from: 2 f63108e49e5099d56961d35fdb2891b49078c94c6f6e59e27906d276532693535c45825bbed10f31f7cea3f95be64842
+[33m[WARNI] 17:11:52.666 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 17:11:52.672 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[32m[NOTIC] 17:11:53.050 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 17:11:53.055 node.go:92[p2p] Chat -> [0mNow Say Hello from: 3 e327d29d325726c4d147b2f10174f17137aec917c78f882d9693fbc183c6f8f9b1fedea0fd6e69f3c380bae1ab97ff39
+[33m[WARNI] 17:11:53.066 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 17:11:53.071 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[32m[NOTIC] 17:11:53.450 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 17:11:53.455 node.go:92[p2p] Chat -> [0mNow Say Hello from: 4 9378dfb723a4abeaf2395139e62f13998d4ff2f12eb4d56f7ffd9852742314d952e160d989ad8590810bee8d047b267d
+[33m[WARNI] 17:11:53.466 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 17:11:53.471 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[32m[NOTIC] 17:11:53.839 gRPCPeerManager.go:76[p2p] Start -> [0m┌────────────────────────────┐
+[32m[NOTIC] 17:11:53.839 gRPCPeerManager.go:77[p2p] Start -> [0m│  All NODES WERE CONNECTED  │
+[32m[NOTIC] 17:11:53.839 gRPCPeerManager.go:78[p2p] Start -> [0m└────────────────────────────┘
+[32m[NOTIC] 17:11:53.840 pbftprotocal.go:518[consensus/pbft] processPbftEvent -> [0m======== Replica 1 finished negotiating view: 0
+[32m[NOTIC] 17:11:53.840 recovery.go:20[consensus/pbft] initRecovery -> [0mReplica 1 now initRecovery
+[32m[NOTIC] 17:11:53.841 pbftprotocal.go:539[consensus/pbft] processPbftEvent -> [0m======== Replica 1 finished recovery, height: 3
+[32m[NOTIC] 17:12:30.558 block_pool.go:136[block-pool] Validate -> [0mCurrent demandSeqNo is,  5
+[32m[NOTIC] 17:12:30.562 pbftprotocal.go:1501[consensus/pbft] executeOne -> [0m--------Replica 1 Call execute, view=0/seqNo=4--------
+[32m[NOTIC] 17:12:30.562 block_pool.go:514[block-pool] WriteBlock -> [0mBlock number 4
+[32m[NOTIC] 17:12:30.562 block_pool.go:515[block-pool] WriteBlock -> [0mBlock hash 08da76c470d4fd56d0d87c0b0f263c977ca6db672a860c393091c67e233e3bb0

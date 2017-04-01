@@ -1,0 +1,35 @@
+[32m[NOTIC] 16:44:04.712 pbftpersist.go:269[consensus/pbft] restoreState -> [0m=========restore view 0=======
+[33m[WARNI] 16:44:04.712 pbftpersist.go:287[consensus/pbft] restoreLastSeqNo -> [0mReplica 2 could not restore lastExec: Height of chain is 0
+[32m[NOTIC] 16:44:04.712 pbftprotocal.go:320[consensus/pbft] newPbft -> [0mReplica 2 set vcResendLimit 10
+[32m[NOTIC] 16:44:04.712 pbftprotocal.go:358[consensus/pbft] newPbft -> [0m--------PBFT finish start, nodeID: 2--------
+[32m[NOTIC] 16:44:07.237 block_pool.go:96[block-pool] NewBlockPool -> [0mBlock pool Initialize demandNumber :1, demandseqNo: 1
+[32m[NOTIC] 16:44:07.464 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 16:44:07.468 node.go:92[p2p] Chat -> [0mNow Say Hello from: 1 7db5f8f9d6cc94a470efc664091a5194b969b4a4440344da1cf4ed57da7fb38190b0485418d5d6a1322bf8d9d0f6cc44
+[33m[WARNI] 16:44:07.478 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 16:44:07.483 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[32m[NOTIC] 16:44:08.062 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 16:44:08.067 node.go:92[p2p] Chat -> [0mNow Say Hello from: 3 64f0ef794f2b388a676aa3dbe0a40073aa24b8791faf7130d5cf5041bb4bd5b6942b0435f18e7c00f9ac7a7cf3d3c6d8
+[33m[WARNI] 16:44:08.078 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 16:44:08.083 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[32m[NOTIC] 16:44:08.462 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 16:44:08.467 node.go:92[p2p] Chat -> [0mNow Say Hello from: 4 52fb26123f74c13d4cdf9a6ea3415476d6ff4762305042397d44af8669de1b5ce2dc291a936bda4ee730b454ec9675cf
+[33m[WARNI] 16:44:08.478 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 16:44:08.483 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[32m[NOTIC] 16:44:08.851 gRPCPeerManager.go:76[p2p] Start -> [0m┌────────────────────────────┐
+[32m[NOTIC] 16:44:08.851 gRPCPeerManager.go:77[p2p] Start -> [0m│  All NODES WERE CONNECTED  │
+[32m[NOTIC] 16:44:08.851 gRPCPeerManager.go:78[p2p] Start -> [0m└────────────────────────────┘
+[32m[NOTIC] 16:44:08.852 pbftprotocal.go:518[consensus/pbft] processPbftEvent -> [0m======== Replica 2 finished negotiating view: 0
+[32m[NOTIC] 16:44:08.852 recovery.go:20[consensus/pbft] initRecovery -> [0mReplica 2 now initRecovery
+[32m[NOTIC] 16:44:08.852 pbftprotocal.go:539[consensus/pbft] processPbftEvent -> [0m======== Replica 2 finished recovery, height: 0
+[32m[NOTIC] 16:50:09.472 block_pool.go:136[block-pool] Validate -> [0mCurrent demandSeqNo is,  2
+[32m[NOTIC] 16:50:09.472 pbftprotocal.go:1501[consensus/pbft] executeOne -> [0m--------Replica 2 Call execute, view=0/seqNo=1--------
+[32m[NOTIC] 16:50:09.473 block_pool.go:514[block-pool] WriteBlock -> [0mBlock number 1
+[32m[NOTIC] 16:50:09.473 block_pool.go:515[block-pool] WriteBlock -> [0mBlock hash c28138877bba7255d67bb609d0cda4bd32d8ef51679ced1a4937d05154ee5000
+[32m[NOTIC] 16:51:51.286 block_pool.go:136[block-pool] Validate -> [0mCurrent demandSeqNo is,  3
+[32m[NOTIC] 16:51:51.286 pbftprotocal.go:1501[consensus/pbft] executeOne -> [0m--------Replica 2 Call execute, view=0/seqNo=2--------
+[32m[NOTIC] 16:51:51.286 block_pool.go:514[block-pool] WriteBlock -> [0mBlock number 2
+[32m[NOTIC] 16:51:51.286 block_pool.go:515[block-pool] WriteBlock -> [0mBlock hash dc177f3d4b73204f892681b9aa8f1c4dcaadb4f65c4b20fc2db901a69271589a
+[32m[NOTIC] 16:52:07.844 block_pool.go:136[block-pool] Validate -> [0mCurrent demandSeqNo is,  4
+[32m[NOTIC] 16:52:07.845 pbftprotocal.go:1501[consensus/pbft] executeOne -> [0m--------Replica 2 Call execute, view=0/seqNo=3--------
+[32m[NOTIC] 16:52:07.846 block_pool.go:514[block-pool] WriteBlock -> [0mBlock number 3
+[32m[NOTIC] 16:52:07.846 block_pool.go:515[block-pool] WriteBlock -> [0mBlock hash 10082fc4eeeb08ceae8b42bccac196fa18e73158a62de907bd90b3fdeac6e505

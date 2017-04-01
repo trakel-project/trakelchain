@@ -1,0 +1,33 @@
+{
+  "maxpeernode":4,
+  "nodes":[
+    {
+    "id":1,
+    "address":"127.0.0.1",
+    "external_address":"127.0.0.1",
+    "port":8001,
+    "rpc_port":8081
+  },
+    {
+    "id":2,
+    "address":"127.0.0.1",
+    "external_address":"127.0.0.1",
+    "port":8002,
+    "rpc_port":8082
+  },
+    {
+    "id":3,
+    "address":"127.0.0.1",
+    "external_address":"127.0.0.1",
+    "port":8003,
+    "rpc_port":8083
+  },
+    {
+    "id":4,
+    "address":"127.0.0.1",
+    "external_address":"127.0.0.1",
+    "port":8004,
+    "rpc_port":8084
+  }
+]
+}

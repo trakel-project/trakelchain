@@ -1,0 +1,53 @@
+###########################################################
+#  _   _                        ____ _           _        #
+# | | | |_   _ _ __   ___ _ __ / ___| |__   __ _(_)_ __   #
+# | |_| | | | | '_ \ / _ \ '__| |   | '_ \ / _\` | | '_ \ #
+# |  _  | |_| | |_) |  __/ |  | |___| | | | (_| | | | | | #
+# |_| |_|\__, | .__/ \___|_|   \____|_| |_|\__,_|_|_| |_| #
+#        |___/|_|                                         #
+###########################################################
+
+## PBFT PROPERTIES
+# Note: please READ the comments carefully when modify
+#
+
+pbft:
+
+    # Number of replicas
+    nodes: 4
+
+    # How many transactions should the primary pack before sending pre-prepare
+    batchsize: 500
+
+    # How many times of same vc from self before a replica start recovery
+    vcresendlimit: 10
+
+# Timeouts
+timeout:
+
+    # How long to wait for N-f responses after send negotiate view
+    negoview: 6s
+
+    # How long to wait before recovery finished(This is for release1.2)
+    recovery: 60s
+
+    # How long to wait before first request should come
+    firstrequest: 30s
+
+    # Primary send a pre-prepare if there are pending requests, although batchsize isn't reached yet,
+    batch: 50ms
+
+    # How long may a request(transaction batch) take between reception and execution, must be greater than the batch timeout
+    request: 3s
+
+    # How long may a validate (transaction batch) process will take by local Validation
+    validate: 1s
+
+    # Primary send it to inform aliveness, must be greater than request timeout
+    nullrequest: 4s
+
+    # How long may a view change take
+    viewchange: 4s
+
+    # How long to wait for a view change quorum before resending (the same) view change
+    resendviewchange: 10s

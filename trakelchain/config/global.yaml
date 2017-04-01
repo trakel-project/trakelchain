@@ -1,0 +1,65 @@
+###########################################################
+#  _   _                        ____ _           _        #
+# | | | |_   _ _ __   ___ _ __ / ___| |__   __ _(_)_ __   #
+# | |_| | | | | '_ \ / _ \ '__| |   | '_ \ / _\` | | '_ \ #
+# |  _  | |_| | |_) |  __/ |  | |___| | | | (_| | | | | | #
+# |_| |_|\__, | .__/ \___|_|   \____|_| |_|\__,_|_|_| |_| #
+#        |___/|_|                                         #
+###########################################################
+
+## Data storage path config
+# Note: please DONOT add a slash `/` in the end of directory path.
+# this relative path is relative to the hyperchain binary execute file path
+# e.g: the file tree stauct like:
+#
+
+
+# node config
+
+global:
+
+##########################
+# data storage config #
+##########################
+    account:
+        keystoredir: "./build/keystore"
+        keynodesdir: "./build/keynodes"
+
+    logs:
+        # dump the log file or not
+        dumpfile: true
+        logsdir: "./build/logs"
+        # loglevel contains those levels:
+        #    High   CRITICAL
+        #           ERROR
+        #           WARNING
+        #           NOTICE
+        #           INFO
+        #    Low    DEBUG
+
+        loglevel: "NOTICE"
+    database:
+        dir: "./build/database/"
+
+    version:
+        blockversion: "1.0"
+        transactionversion: "1.0"
+###########################
+# configs
+############################
+    configs:
+        peers: "config/local_peerconfig.json"
+        genesis: "config/genesis.json"
+        membersrvc: "config/membersrvc.yaml"
+        pbft: "config/pbft.yaml"
+        license: "config/LICENSE"
+        replicainfo:
+            interval : 500s
+            enable   : false
+        ratelimit:
+            enable   : true
+            txRatePeak : 100
+            txFillRate: 0.5ms
+            contractRatePeak : 100
+            contractFillRate: 0.5ms
+

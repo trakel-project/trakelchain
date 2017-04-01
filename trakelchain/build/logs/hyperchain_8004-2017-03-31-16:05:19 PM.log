@@ -1,0 +1,39 @@
+[32m[NOTIC] 16:05:19.239 pbftpersist.go:269[consensus/pbft] restoreState -> [0m=========restore view 0=======
+[33m[WARNI] 16:05:19.239 pbftpersist.go:287[consensus/pbft] restoreLastSeqNo -> [0mReplica 4 could not restore lastExec: Height of chain is 0
+[32m[NOTIC] 16:05:19.239 pbftprotocal.go:320[consensus/pbft] newPbft -> [0mReplica 4 set vcResendLimit 10
+[32m[NOTIC] 16:05:19.239 pbftprotocal.go:358[consensus/pbft] newPbft -> [0m--------PBFT finish start, nodeID: 4--------
+[32m[NOTIC] 16:05:21.743 block_pool.go:96[block-pool] NewBlockPool -> [0mBlock pool Initialize demandNumber :1, demandseqNo: 1
+[32m[NOTIC] 16:05:21.969 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 16:05:21.974 node.go:92[p2p] Chat -> [0mNow Say Hello from: 1 7965d673923c1a0ca79a95428d0956e2ed168f3abc3236954bf62ffa283a70c580585acad4d8524a60f06b69d019dc67
+[33m[WARNI] 16:05:21.986 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 16:05:21.991 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 16:05:22.190 node.go:92[p2p] Chat -> [0mNow Say Hello from: 1 7965d673923c1a0ca79a95428d0956e2ed168f3abc3236954bf62ffa283a70c580585acad4d8524a60f06b69d019dc67
+[31m[ERROR] 16:05:22.357 peer.go:68[p2p] NewPeerByIpAndPort -> [0mcannot establish a connection
+[31m[ERROR] 16:05:22.358 gRPCPeerManager.go:134[p2p] connectToPeer -> [0mNode:  127.0.0.1 : 8002  can not connect!
+[31m[ERROR] 16:05:22.358 gRPCPeerManager.go:109[p2p] connectToPeers -> [0mNode:  127.0.0.1 : 8002  can not connect!
+ rpc error: code = 14 desc = grpc: the connection is unavailable
+[33m[WARNI] 16:05:22.377 node.go:92[p2p] Chat -> [0mNow Say Hello from: 3 a26a56aa9e570c69e9ee1d3762c63d8b95d14416adaa17172766ba4ca0d6b2faf3da70a16336aeb990cac244e1c31797
+[32m[NOTIC] 16:05:22.392 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 16:05:22.397 node.go:92[p2p] Chat -> [0mNow Say Hello from: 3 a26a56aa9e570c69e9ee1d3762c63d8b95d14416adaa17172766ba4ca0d6b2faf3da70a16336aeb990cac244e1c31797
+[33m[WARNI] 16:05:22.564 node.go:105[p2p] Chat -> [0mIgnore the  HELLO_RESPONSE message
+[32m[NOTIC] 16:05:22.569 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[32m[NOTIC] 16:05:23.157 gRPCPeerManager.go:76[p2p] Start -> [0m┌────────────────────────────┐
+[32m[NOTIC] 16:05:23.157 gRPCPeerManager.go:77[p2p] Start -> [0m│  All NODES WERE CONNECTED  │
+[32m[NOTIC] 16:05:23.157 gRPCPeerManager.go:78[p2p] Start -> [0m└────────────────────────────┘
+[33m[WARNI] 16:05:36.599 node.go:92[p2p] Chat -> [0mNow Say Hello from: 2 469fbd1f0044d810736629c79b1c762d1fee04a0d30a2a096827b2d396d7a67dd6575cade6e2e646d2382a38e014dcb3
+[32m[NOTIC] 16:05:36.616 peer.go:79[p2p] NewPeerByIpAndPort -> [0msecret 96
+[33m[WARNI] 16:05:36.621 node.go:92[p2p] Chat -> [0mNow Say Hello from: 2 469fbd1f0044d810736629c79b1c762d1fee04a0d30a2a096827b2d396d7a67dd6575cade6e2e646d2382a38e014dcb3
+[32m[NOTIC] 16:05:41.158 pbftprotocal.go:518[consensus/pbft] processPbftEvent -> [0m======== Replica 4 finished negotiating view: 0
+[32m[NOTIC] 16:05:41.158 recovery.go:20[consensus/pbft] initRecovery -> [0mReplica 4 now initRecovery
+[32m[NOTIC] 16:05:41.159 pbftprotocal.go:539[consensus/pbft] processPbftEvent -> [0m======== Replica 4 finished recovery, height: 0
+[33m[WARNI] 16:25:39.635 pbftprotocal.go:776[consensus/pbft] nullRequestHandler -> [0mReplica 4 null request timer expired, sending view change
+[32m[NOTIC] 16:25:39.635 viewchange.go:167[consensus/pbft] sendViewChange -> [0mReplica 4 sending view-change, v:1, h:0, |C|:1, |P|:0, |Q|:0
+[32m[NOTIC] 16:25:39.635 viewchange.go:187[consensus/pbft] recvViewChange -> [0mReplica 4 received view-change from replica 4, v:1, h:0, |C|:1, |P|:0, |Q|:0
+[33m[WARNI] 16:25:39.635 viewchange.go:218[consensus/pbft] recvViewChange -> [0m######## Replica 4 already recv view change from itself for 1 times
+[31m[ERROR] 16:25:39.635 peer.go:170[p2p] Chat -> [0merr: rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 16:25:39.635 peer.go:171[p2p] Chat -> [0mretry to connect again
+[33m[WARNI] 16:25:39.635 peer.go:172[p2p] Chat -> [0mwatting for updating
+[31m[ERROR] 16:25:39.635 peer.go:170[p2p] Chat -> [0merr: rpc error: code = 14 desc = grpc: the connection is unavailable
+[31m[ERROR] 16:25:39.635 peer.go:171[p2p] Chat -> [0mretry to connect again
+[33m[WARNI] 16:25:39.635 peer.go:172[p2p] Chat -> [0mwatting for updating
+[32m[NOTIC] 16:25:39.635 viewchange.go:187[consensus/pbft] recvViewChange -> [0mReplica 4 received view-change from replica 3, v:1, h:0, |C|:1, |P|:0, |Q|:0

@@ -1,0 +1,2 @@
+[31m[ERROR] 17:11:39.282 database_utils.go:592[] IsGenesisFinish -> [0mget database handler failed.
+[35m[CRITI] 17:11:39.282 genesis.go:50[] CreateInitBlock -> [0mresource temporarily unavailable
